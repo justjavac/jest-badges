@@ -1,0 +1,33 @@
+{
+  "name": "jest-badges",
+  "version": "0.1.1",
+  "description": "Report jest coverage badges",
+  "scripts": {
+    "format": "deno fmt ./src",
+    "lint": "deno lint --unstable ./src",
+    "build": "tsc",
+    "prepublishOnly": "yarn tsc"
+  },
+  "license": "MIT",
+  "keywords": [
+    "jest",
+    "badges",
+    "test"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "justjavac/jest-badges",
+  "bugs": "https://github.com/justjavac/jest-badges/issues",
+  "author": "justjavac <justjavac@gmail.com> (https://justjavac.com)",
+  "files": [
+    "dist/index.js",
+    "dist/index.d.ts"
+  ],
+  "dependencies": {
+    "istanbul-lib-report": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/istanbul-lib-report": "^3.0.0",
+    "typescript": "^4.2.3"
+  }
+}
