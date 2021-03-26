@@ -1,10 +1,14 @@
 # jest-badges
 
 [![ci](https://github.com/justjavac/jest-badges/actions/workflows/ci.yml/badge.svg)](https://github.com/justjavac/jest-badges/actions/workflows/ci.yml)
-[![Coverage][coverage-badge]][coverage] [![npm][npm-badge]][npm-url]
+[![npm][npm-badge]][npm-url]
 [![Size][size-badge]][size]
 
 Report jest coverage badges
+
+![100](./badges/100.svg)
+![89.99](./badges/89.99.svg)
+![79.99](./badges/79.99.svg)
 
 ## Install
 
@@ -46,8 +50,6 @@ module.exports = {
 [jest-badges](https://github.com/justjavac/jest-badges) is released under the
 MIT License. See the bundled [LICENSE](./LICENSE) file for details.
 
-[coverage-badge]: https://img.shields.io/codecov/c/github/justjavac/jest-badges.svg
-[coverage]: https://codecov.io/github/justjavac/jest-badges
 [size-badge]: https://img.shields.io/bundlephobia/minzip/jest-badges.svg
 [size]: https://bundlephobia.com/result?p=jest-badges
 [npm-badge]: https://img.shields.io/npm/v/jest-badges.svg

@@ -22,14 +22,14 @@ export = class BadgesReporter extends ReportBase {
 
 function getColour(percent: number): string {
   if (percent < 80) {
-    return "red";
+    return "#e05d44";
   }
 
   if (percent < 90) {
-    return "yellow";
+    return "#dfb317";
   }
 
-  return "brightgreen";
+  return "#4c1";
 }
 
 function createBadgeSvg(key: string, percent: number): string {
