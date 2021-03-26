@@ -6,9 +6,9 @@
 
 Report jest coverage badges
 
-![100](./badges/100.svg)
-![89.99](./badges/89.99.svg)
-![79.99](./badges/79.99.svg)
+![100](https://cdn.jsdelivr.net/gh/justjavac/jest-badges/badges/100.svg)
+![89.99](https://cdn.jsdelivr.net/gh/justjavac/jest-badges/badges/89.99.svg)
+![79.99](https://cdn.jsdelivr.net/gh/justjavac/jest-badges/badges/79.99.svg)
 
 ## Install
 
